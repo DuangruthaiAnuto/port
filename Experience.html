@@ -1,0 +1,137 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>DUANGRUTHAI ANUTO</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--webfont-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add fancyBox main JS and CSS files -->
+    <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+</head>
+
+<body>
+    <div class="header_top">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt=""></a>
+            </div>
+            <div class="cssmenu">
+                <ul id="nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">RESUME</a></li>
+                    <li><a href="#01">EXPERIENCE</a></li>
+                    <li><a href="Experience2.html">EXPERIENCE2</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                    <div class="clearfix"> </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="01">
+        <div class="wmuSlider example2 section">
+            <div class="banner-wrap2">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.wmuSlider.js"></script>
+    <script>
+        $('.example2').wmuSlider();
+    </script>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-5 exper_left">
+                    <h3>Infographic</h3>
+                    <h4>หัวข้อ : ศิลปวัฒนธรรม</h4>
+                </div>
+                <div class="col-xs-7 exper_left">
+                    <img src="images/01.jpg" style="width: 70%;" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5 exper_left">
+                    <br />
+                    <h4>หัวข้อ : ประชาสัมพันธ์หลักสูตร</h4>
+                </div>
+                <div class="col-xs-7 exper_left">
+                    <br />
+                    <img src="images/02.jpg" style="width: 70%;" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav').onePageNav({
+                begin: function () {
+                    console.log('start')
+                },
+                end: function () {
+                    console.log('stop')
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                    containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+
+</html>
